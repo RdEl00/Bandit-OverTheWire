@@ -1,4 +1,7 @@
 # OverTheWire-Bandit
+
+![](/Assets/OverTheWire.jpg)
+
 This repository contains a walkthrough guide to completing the [Bandit](http://overthewire.org/wargames/bandit/) levels in the OverTheWire wargames.
 
 This repository serves as:
