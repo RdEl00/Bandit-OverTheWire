@@ -72,6 +72,20 @@ Each level of the walkthrough guide summarises the:
 * File: `-file07` *ASCII text*
 * Password for Level 5: `lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR`
 
+**Bandit Level 5 → Level 6**  
+**Level Goal**: The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
+
+    + human-readable
+    + 1033 bytes in size
+    + not executable
+
+* Commands: 
+    - `ssh bandit5@bandit.labs.overthewire.org -p 2220`
+    - ``
+    - `exit`
+* File: ``
+* Password for Level 6: ``
+
 <!--
 -----------------------
 **Bandit **  
