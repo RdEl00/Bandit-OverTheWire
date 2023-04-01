@@ -58,10 +58,19 @@ Each level of the walkthrough guide summarises the:
     - `ssh bandit3@bandit.labs.overthewire.org -p 2220`
     - `cat inhere/.hidden`
     - `exit`
-* File: `inhere`
+* File: `.hidden`
 * Password for Level 4: `2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe`
 
+**Bandit Level 4 → Level 5**  
+**Level Goal**: The password for the next level is stored in the only human-readable file in the inhere directory. *Tip: if your terminal is messed up, try the “reset” command.*
 
+* Commands: 
+    - `ssh bandit4@bandit.labs.overthewire.org -p 2220`
+    - `file inhere/*`
+    - `cat inhere/-file07`
+    - `exit`
+* File: `-file07` *ASCII text*
+* Password for Level 5: `lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR`
 
 <!--
 -----------------------
