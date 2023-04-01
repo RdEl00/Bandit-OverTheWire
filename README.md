@@ -122,9 +122,18 @@ This repository contains a walkthrough guide to completing the [Bandit](http://w
 * File: `data.txt`
 * Password for Level 8: `TESKZC0XvTetK0S9xNwm25STk5iWrBvP`
 
+### Bandit Level 8 - Level 9
+**Level Goal**: The password for the next level is stored in the file data.txt and is the only line of text that occurs only once
+
+* Commands: 
+    - `ssh bandit8@bandit.labs.overthewire.org -p 2220`
+    - `cat data.txt |sort|uniq -u`
+    - `exit`
+* File: `data.txt`
+* Password for Level : `EN632PlfYiZbn3PhVK3XOGSlNInNE00t`
+
 <!--
------------------------
-**Bandit **  
+### Bandit Level  - Level  
 **Level Goal**: 
 
 * Commands: 
