@@ -144,7 +144,7 @@ This repository contains a walkthrough guide to completing the [Bandit](http://w
 * File: `data.txt`
 * Password for Level 10: `G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s`
 
-### Bandit Level 10  - Level 11 
+### Bandit Level 10 - Level 11 
 **Level Goal**: The password for the next level is stored in the file data.txt, which contains base64 encoded data
 
 * Commands: 
@@ -155,10 +155,10 @@ This repository contains a walkthrough guide to completing the [Bandit](http://w
 * Password for Level 11: `6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM`
 
 ### Bandit Level 11  - Level 12 
-**Level Goal**: 
+**Level Goal**: The password for the next level is stored in the file data.txt, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions
 
 * Commands: 
-    - `ssh bandit@bandit.labs.overthewire.org -p 2220`
+    - `ssh bandit11@bandit.labs.overthewire.org -p 2220`
     - ``
     - `exit`
 * File: ``
