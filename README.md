@@ -1,5 +1,7 @@
 # OverTheWire-Bandit
-
+<p align="center">
+    <img src = "Assets/overthewire-logo-1.png"/>
+</p>
 <img align="center" src = "Assets/overthewire-logo-1.png"/>
 
 <!--![](Assets/overthewire-logo-1.png)-->
