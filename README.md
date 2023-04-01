@@ -20,6 +20,7 @@ This repository contains a walkthrough guide to completing the [Bandit](http://w
     - [Level 7 → Level 8](#Bandit-Level-7---Level-8)
     - [Level 8 → Level 9](#Bandit-Level-8---Level-9)
     - [Level 9 → Level 10](#Bandit-Level-9---Level-10)
+    - [Level 10 → Level 11](#Bandit-Level-10---Level-11)
 
 # Walkthrough Guide
 ### Bandit Level 0  
@@ -143,6 +144,25 @@ This repository contains a walkthrough guide to completing the [Bandit](http://w
 * File: `data.txt`
 * Password for Level 10: `G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s`
 
+### Bandit Level 10  - Level 11 
+**Level Goal**: The password for the next level is stored in the file data.txt, which contains base64 encoded data
+
+* Commands: 
+    - `ssh bandit10@bandit.labs.overthewire.org -p 2220`
+    - `base64 -d data.txt`
+    - `exit`
+* File: `data.txt`
+* Password for Level 11: `6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM`
+
+### Bandit Level 11  - Level 12 
+**Level Goal**: 
+
+* Commands: 
+    - `ssh bandit@bandit.labs.overthewire.org -p 2220`
+    - ``
+    - `exit`
+* File: ``
+* Password for Level : ``
 <!--
 ### Bandit Level  - Level  
 **Level Goal**: 
