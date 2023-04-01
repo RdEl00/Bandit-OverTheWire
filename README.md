@@ -1,8 +1,10 @@
 # OverTheWire-Bandit
 
-![](/Assets/overthewire-logo-1.png)
+<img align="center" src = "Assets/overthewire-logo-1.png"/>
 
-This repository contains a walkthrough guide to completing the [Bandit](http://overthewire.org/wargames/bandit/) levels in the OverTheWire wargames.
+<!--![](Assets/overthewire-logo-1.png)-->
+
+This repository contains a walkthrough guide to completing the [Bandit](http://www.overthewire.org/wargames) levels in the OverTheWire wargames.
 
 This repository serves as:
 1) Documentation of my methods and thought process as I solve each level.
@@ -81,10 +83,11 @@ Each level of the walkthrough guide summarises the:
 
 * Commands: 
     - `ssh bandit5@bandit.labs.overthewire.org -p 2220`
-    - ``
+    - `find ./* -type f -readable -size 1033c ! -executable`
+    - `cat ./inhere/maybehere07/.file2`
     - `exit`
-* File: ``
-* Password for Level 6: ``
+* File: `./inhere/maybehere07/.file2`
+* Password for Level 6: `P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU`
 
 <!--
 -----------------------
