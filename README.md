@@ -8,9 +8,17 @@
 This repository contains a walkthrough guide to completing the [Bandit](http://www.overthewire.org/wargames) levels in the OverTheWire wargames.
 
 # Contents
-
-- [Bandit Level 0](#Bandit-Level-0)
-- [Bandit Level 7](#Bandit-Level-7---Level-8)
+- Bandit Levels
+    - [Level 0](#Bandit-Level-0)
+    - [Level 0 → Level 1](#Bandit-Level-0---Level-1)
+    - [Level 1 → Level 2](#Bandit-Level-1---Level-2)
+    - [Level 2 → Level 3](#Bandit-Level-2---Level-3)
+    - [Level 3 → Level 4](#Bandit-Level-3---Level-4)
+    - [Level 4 → Level 5](#Bandit-Level-4---Level-5)
+    - [Level 5 → Level 6](#Bandit-Level-5---Level-6)
+    - [Level 6 → Level 7](#Bandit-Level-6---Level-7)
+    - [Level 7 → Level 8](#Bandit-Level-7---Level-8)
+    - [Level 8 → Level 9](#Bandit-Level-8---Level-9)
 
 
 # Walkthrough Guide
@@ -22,7 +30,7 @@ This repository contains a walkthrough guide to completing the [Bandit](http://w
     - `exit`
 * Password for Level 0: `bandit0`
 
-**Bandit Level 0 → Level 1**  
+### Bandit Level 0 - Level 1  
 **Level Goal**: The password for the next level is stored in a file called readme located in the home directory. Use this password to log into bandit1 using SSH. *Whenever you find a password for a level, use SSH (on port 2220) to log into that level and continue the game.*
 
 * Commands: 
@@ -32,7 +40,7 @@ This repository contains a walkthrough guide to completing the [Bandit](http://w
 * File: `readme`
 * Password for Level 1: `NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL`
 
-**Bandit Level 1 → Level 2**  
+### Bandit Level 1 - Level 2  
 **Level Goal**: The password for the next level is stored in a file called - located in the home directory
 
 * Commands: 
@@ -42,7 +50,7 @@ This repository contains a walkthrough guide to completing the [Bandit](http://w
 * File: `-`
 * Password for Level 2: `rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi` 
 
-**Bandit Level 2 → Level 3**  
+### Bandit Level 2 - Level 3  
 **Level Goal**: The password for the next level is stored in a file called spaces in this filename located in the home directory
 
 * Commands: 
@@ -52,7 +60,7 @@ This repository contains a walkthrough guide to completing the [Bandit](http://w
 * File: `spaces in this filename`
 * Password for Level 3: `aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG` 
 
-**Bandit Level 3 → Level 4**  
+### Bandit Level 3 - Level 4  
 **Level Goal**: The password for the next level is stored in a hidden file in the inhere directory.
 
 * Commands: 
@@ -62,7 +70,7 @@ This repository contains a walkthrough guide to completing the [Bandit](http://w
 * File: `.hidden`
 * Password for Level 4: `2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe`
 
-**Bandit Level 4 → Level 5**  
+### Bandit Level 4 - Level 5 
 **Level Goal**: The password for the next level is stored in the only human-readable file in the inhere directory. *Tip: if your terminal is messed up, try the “reset” command.*
 
 * Commands: 
@@ -73,7 +81,7 @@ This repository contains a walkthrough guide to completing the [Bandit](http://w
 * File: `-file07` *ASCII text*
 * Password for Level 5: `lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR`
 
-**Bandit Level 5 → Level 6**  
+### Bandit Level 5 - Level 6  
 **Level Goal**: The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
 
     + human-readable
@@ -88,7 +96,7 @@ This repository contains a walkthrough guide to completing the [Bandit](http://w
 * File: `./inhere/maybehere07/.file2`
 * Password for Level 6: `P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU`
 
-**Bandit Level 6 → Level 7**  
+### Bandit Level 6 - Level 7 
 **Level Goal**: The password for the next level is stored somewhere on the server and has all of the following properties:
 
     + owned by user bandit7
