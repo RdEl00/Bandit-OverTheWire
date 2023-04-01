@@ -7,16 +7,14 @@
 
 This repository contains a walkthrough guide to completing the [Bandit](http://www.overthewire.org/wargames) levels in the OverTheWire wargames.
 
-This repository serves as:
-1) Documentation of my methods and thought process as I solve each level.
-2) Revision guide based on the key takeaways from solving each challenge.
+# Contents
 
-Each level of the walkthrough guide summarises the:
-1) Level Goal (taken verbatim from what's given on the site)
-2) Key Takeaways
+- [Bandit Level 0](#Bandit-Level-0)
+- [Bandit Level 7](#Bandit-Level-7-→-Level-8)
+
 
 # Walkthrough Guide
-**Bandit Level 0**  
+### Bandit Level 0  
 **Level Goal**: The goal of this level is for you to log into the game using SSH. The host to which you need to connect is bandit.labs.overthewire.org, on port 2220. The username is bandit0 and the password is bandit0.
 
 * Commands: 
